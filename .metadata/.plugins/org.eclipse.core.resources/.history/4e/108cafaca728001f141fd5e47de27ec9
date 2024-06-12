@@ -1,0 +1,17 @@
+package array.logic;
+
+public class ReverseNumberArray {
+
+	public static void main(String[] args) {
+		
+		
+		int left = 0, right = array.length - 1;
+	    while (left < right) {
+	        int temp = array[left];
+	        array[left] = array[right];
+	        array[right] = temp;
+	        left++;
+	        right--;
+	    }
+	}
+}
